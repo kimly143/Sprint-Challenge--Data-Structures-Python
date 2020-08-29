@@ -7,11 +7,12 @@ f = open('names_1.txt', 'r')
 names_1 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
-#  using binary_search_tree
+#  using binary_search_tree O(log(n))
 names_1_tree = BSTNode(names_1[0]) # name_1[0] : first name of the array
 for name in names_1[1:]:
     names_1_tree.insert(name)
 
+# using Set to store will be an absolute O(1)
 
 f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
