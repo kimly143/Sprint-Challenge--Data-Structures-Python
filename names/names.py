@@ -35,10 +35,10 @@ duplicates = []  # Return the list of duplicates in this data structure
 # Python has built-in tools that allow for a very efficient approach to this problem
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
-# names_1.sort()
-# for name in names_2:
-#     if search(names_1, name):
-#         duplicates.append(name)
+names_1.sort()
+for name in names_2:
+    if search(names_1, name):
+        duplicates.append(name)
 ######### runtime: 0.035001277923583984 seconds
 
 end_time = time.time()
