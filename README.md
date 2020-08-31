@@ -65,6 +65,8 @@ Navigate into the `names` directory. Here you will find two text files containin
 Six seconds is an eternity so you've been tasked with speeding up the code. Your goal is to use one of the data structures we built out over the course of this week in order to optimize and improve on the runtime so that it's more efficient than O(n²).
 
 A follow-up question to think about: _*once you've used one of the data structures we implemented over the course of the week*_ in order to improve the runtime of the implementation, what other data structures (including ones from Python's standard library) are also possible candidates for improving the runtime of the implementation?
+    --- using Set to store will be an absolute O(1)
+
 
 #### Task 3. Reverse a Linked List
 
